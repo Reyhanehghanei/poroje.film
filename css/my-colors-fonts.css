@@ -1,0 +1,71 @@
+body, html {
+    background-color:var(--body-color) !important;
+    font-size: 1rem;
+    font-family:"vazir" !important;
+}
+.persian-font1 {
+    font-family:"vazir" !important;
+}
+.Tahoma {
+    font-family: "Tahoma" !important;
+}
+.googlefont1 {
+    font-family: "Allison" !important;
+}
+.googlefont2 {
+    font-family: "Shadows Into Light" !important;
+}
+
+@font-face{
+    font-family: "vazir";
+    src: url(../fonts/vazir.eot) format("eot"),
+    url(../fonts/vazir.ttf) format("truetype"),
+    url(../fonts/vazir.woff) format("woff");
+}
+:root{
+    --colorzero:rgba(0,0,0,0.0);
+    --color00:#ffffff;
+    --color01:#000000;
+    --body-color:#ffffff;
+
+    --color10:#8573e9;
+    --color11:#ff74b8;
+    --color12:#8226e1;
+    --color13:#740cc3;
+    --color14:#DBE7EE;
+    --color15:#740cc3;
+    --color16:#740cc3;
+    --color17:#740cc3;
+    --color18:#740cc3;
+    --color19:#740cc3;
+    --trans-color10:rgba(133,115,233,0.51);
+    --trans-color11:rgba(255,116,184,0.53);
+    --trans-color12:rgba(130,38,225,0.64);
+    --trans-color13:rgba(116,12,195,0.47);
+    --trans-color14:rgba(253,96,57,0.5);
+    --trans-color15:rgba(253,96,57,0.5);
+    --trans-color16:rgba(253,96,57,0.5);
+    --trans-color17:rgba(253,96,57,0.5);
+    --trans-color18:rgba(253,96,57,0.5);
+    --trans-color19:rgba(178,126,251,0.57);
+    --gray-color10:#f7f7f7;
+    --gray-color11:#adadad;
+    --gray-color12:#707070;
+    --gray-color13:#444444;
+    --gray-color14:#444444;
+    --gray-color15:#444444;
+    --gray-color16:#444444;
+    --gray-color17:#444444;
+    --gray-color18:#050505;
+    --gray-color19:#191c20;
+    --trans-gray-color10:rgba(0,0,0,0.5);
+    --trans-gray-color11:rgba(0,0,0,0.4);
+    --trans-gray-color12:rgba(253,96,57,0.5);
+    --trans-gray-color13:rgba(253,96,57,0.5);
+    --trans-gray-color14:rgba(10,1,1,0.88);
+    --trans-gray-color15:rgba(253,96,57,0.5);
+    --trans-gray-color16:rgba(253,96,57,0.5);
+    --trans-gray-color17:rgba(253,96,57,0.5);
+    --trans-gray-color18:rgba(253,96,57,0.5);
+    --trans-gray-color19:rgba(0,0,0,0.7);
+}

@@ -1,0 +1,116 @@
+/* :: Icon Fonts */
+@font-face {
+  font-family: 'marketo';
+  src: url('../fonts/marketo/marketo.eot?78518743');
+  src: url('../fonts/marketo/marketo.eot?78518743#iefix') format('embedded-opentype'),
+       url('../fonts/marketo/marketo.woff2?78518743') format('woff2'),
+       url('../fonts/marketo/marketo.woff?78518743') format('woff'),
+       url('../fonts/marketo/marketo.ttf?78518743') format('truetype'),
+       url('../fonts/marketo/marketo.svg?78518743#marketo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'marketo';
+    src: url('../fonts/marketo/marketo.svg?78518743#marketo') format('svg');
+  }
+}
+*/
+[class^="fa-"]:before, [class*=" fa-"]:before {
+  font-family: "marketo";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.fa-facebook:before { content: '\e801'; } /* '' */
+.fa-facebook-f:before { content: '\e802'; } /* '' */
+.fa-facebook-square:before { content: '\e803'; } /* '' */
+.fa-linkedin:before { content: '\e804'; } /* '' */
+.fa-linkedin-in:before { content: '\e805'; } /* '' */
+.fa-magnifying-glass:before { content: '\e806'; } /* '' */
+.fa-quote-right:before { content: '\e807'; } /* '' */
+.fa-cart-shopping:before { content: '\e808'; } /* '' */
+.fa-eye:before { content: '\e809'; } /* '' */
+.fa-circle-play:before { content: '\e80a'; } /* '' */
+.fa-instagram-square:before { content: '\e80b'; } /* '' */
+.fa-instagram:before { content: '\e80c'; } /* '' */
+.fa-telegram:before { content: '\e80d'; } /* '' */
+.fa-twitter:before { content: '\e80e'; } /* '' */
+.fa-twitter-square:before { content: '\e80f'; } /* '' */
+.fa-user:before { content: '\e810'; } /* '' */
+.fa-whatsapp:before { content: '\e811'; } /* '' */
+.fa-whatsapp-square:before { content: '\e812'; } /* '' */
+.fa-arrow-left-long:before { content: '\e813'; } /* '' */
+
+
+/* :: Btn CSS */
+.btn-circle {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 1.3rem;
+}
+
+.btn-circle i {
+  position: relative;
+  top: -1px;
+}
+
+.btn-circle-sm {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 0.9rem;
+}
+
+.btn-circle-lg {
+  width: 56px;
+  height: 56px;
+  line-height: 54px;
+  font-size: 1.7rem;
+  padding: 0;
+}
+
+.btn-circle-xl {
+  width: 80px;
+  height: 80px;
+  line-height: 78px;
+  font-size: 2.5rem;
+  padding: -1px 0 0 0;
+}
